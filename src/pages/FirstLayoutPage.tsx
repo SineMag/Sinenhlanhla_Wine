@@ -12,9 +12,11 @@ export default function FirstLayoutPage() {
     }}>
       <h3>
         Welcome to Sinenhlanhla Wine, to order, click the link below:
-      </h3> <button>
+      </h3> 
+      
+      <button>
       <Link to="/admin/ThirdLayoutPage ">
-       Go to Order Page
+    Order Page
       </Link></button>
     </div>
   )
