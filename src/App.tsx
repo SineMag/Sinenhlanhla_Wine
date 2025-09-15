@@ -6,6 +6,7 @@ import FirstLayoutPage from "./pages/FirstLayoutPage";
 import SecondLayoutPage from "./pages/SecondLayoutPage";
 import ThirdLayoutPage from "./pages/ThirdLayoutPage";
 import FourZeroFour from "./pages/FourZeroFour";
+import Template from "./pages/Template";
 
 function App() {
   return (
@@ -17,9 +18,15 @@ function App() {
         <Route path="/admin" element={<Layout />}>
         <Route path="ThirdLayoutPage" element={<ThirdLayoutPage />} />
 
+<Route path="/admin/:firstname" element={<Template />} />
         </Route>
 
-        <Route path="*" element={<FourZeroFour />}></Route>
+        <Route path="*" element={<FourZeroFour />}/>
+
+        
+
+
+
       </Routes>
     </>
   );

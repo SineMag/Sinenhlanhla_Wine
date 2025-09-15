@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Link, Outlet, Route, Routes } from "react-router-dom";
 import FirstLayoutPage from "./FirstLayoutPage";
+import { useParams } from "react-router-dom";
 
 export default function Layout() {
   return (
