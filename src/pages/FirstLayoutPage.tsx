@@ -11,9 +11,9 @@ export default function FirstLayoutPage() {
       alignItems:'center'
     }}>
       <h3>
-        Welcome to Sinnehlanhla Wine, to order, click the link below:
+        Welcome to Sinenhlanhla Wine, to order, click the link below:
       </h3> <button>
-      <Link to="ThirdLayoutPage">
+      <Link to="/admin/ThirdLayoutPage ">
        Go to Order Page
       </Link></button>
     </div>
