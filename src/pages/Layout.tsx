@@ -6,9 +6,9 @@ export default function Layout() {
   return (
     <>
       <nav>
-        <Link to={""}>First Layout Page</Link>
-        <Link to={""}>Second Layout Page</Link>
-        <Link to={""}>Third Layout Page</Link>
+        <Link to={"/"}>First Layout Page</Link>
+        <Link to={"/SecondLayoutPage"}>Second Layout Page</Link>
+        <Link to={"/admin/ThirdLayoutPage"}>Third Layout Page</Link>
       </nav>
       <Outlet />
       <footer>

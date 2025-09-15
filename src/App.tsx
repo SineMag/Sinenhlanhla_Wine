@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import FirstLayoutPage from "./pages/FirstLayoutPage";
 import SecondLayoutPage from "./pages/SecondLayoutPage";
 import ThirdLayoutPage from "./pages/ThirdLayoutPage";
+import FourZeroFour from "./pages/FourZeroFour";
 
 function App() {
   return (
@@ -14,9 +15,11 @@ function App() {
         <Route path="SecondLayoutPage" element={<SecondLayoutPage />} />
 
         <Route path="/admin" element={<Layout />}>
-        <Route path="ThirdLayoutPage" element={<ThirdLayoutPage />}></Route>
+        <Route path="ThirdLayoutPage" element={<ThirdLayoutPage />} />
 
         </Route>
+
+        <Route path="*" element={<FourZeroFour />}></Route>
       </Routes>
     </>
   );
