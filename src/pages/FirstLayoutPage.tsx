@@ -3,7 +3,7 @@ import React from 'react'
 export default function FirstLayoutPage() {
   return (
     <div>
-      <p>This is the first page for the layout</p>
+      <h3>This is the <i>first</i> page for the layout</h3>
     </div>
   )
 }
